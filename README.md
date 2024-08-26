@@ -33,6 +33,7 @@ This project combines social media sentiment analysis with time series predictio
 
 The project starts by scraping tweets related to the Toronto Stock Exchange, Canadian economy, business, finance, stocks, and investing using snscrape. The scraped tweets are then preprocessed and stored in a pandas DataFrame.
 
+
 ## Sentiment Analysis
 
 Sentiment analysis is performed using NLTK's VADER sentiment analyzer. The code calculates sentiment scores for each tweet and adds them to the DataFrame.
@@ -50,16 +51,6 @@ The code performs time series analysis by grouping tweets by date and calculatin
 An LSTM model is trained to predict stock prices based on historical data and sentiment analysis results.
 
 
-### Transformer Model
-
-A transformer-based neural network is implemented using PyTorch for time-series forecasting.
-
-
-### GAN Model
-
-A Generative Adversarial Network (GAN) is implemented to generate synthetic financial data.
-
-
 ## Visualization and Results
 
 The project includes various visualizations to display the results of the sentiment analysis and machine learning models.
@@ -75,5 +66,4 @@ This project demonstrates how social media sentiment analysis and time series pr
 2. Implement real-time sentiment analysis for current market conditions.
 3. Develop a web interface for users to interact with the generated data and predictions.
 4. Explore other machine learning architectures for improved performance.
-5. Conduct a thorough evaluation of the model's performance against actual market data.```
-
+5. Conduct a thorough evaluation of the model's performance against actual market data.
