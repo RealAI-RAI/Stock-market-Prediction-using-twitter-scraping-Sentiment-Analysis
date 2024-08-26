@@ -5,7 +5,8 @@
 
 ## Overview
 
-![Figure 5](https://github.com/user-attachments/assets/e5ee81db-b999-42c9-8576-ab6700e8eec2)
+![Figure 5](https://github.com/user-attachments/assets/e5ee81db-b999-42c9-8576-ab6700e8eec2) 
+![Figure 6](https://github.com/user-attachments/assets/50ae3eb2-3007-4726-8131-d3abd2cf3a96)
 
 
 This project combines social media sentiment analysis with time series prediction to gain insights into the financial markets, particularly focusing on the Toronto Stock Exchange (TSX) and Canadian economy. The code utilizes various libraries including NLTK, snscrape, matplotlib, seaborn, pandas, and machine learning frameworks like TensorFlow and PyTorch.
