@@ -1,4 +1,3 @@
-# Stock-market-Prediction-using-twitter-scraping-Sentiment-Analysis
 # Social Media Sentiment Analysis and Time Series Prediction for Financial Markets
 
 ## Overview
