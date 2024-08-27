@@ -26,7 +26,7 @@ pandas: pandas is a fast, powerful, flexible, and easy-to-use open-source data a
 
 **pickle:** pickle is a Python module used for serializing and de-serializing Python object structures. It is used in the code snippet to save and load the data.
 """
-
+# Import the libraries used in the code
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import snscrape.modules.twitter as sntwitter
 import matplotlib.pyplot as plt
@@ -119,6 +119,5 @@ df.to_csv('millions_tweets.csv', index=False)
 
 df=pd.read_csv('/content/millions_tweets.csv')
 
+# Show First 5 tweets of CSV file
 df.head(12)
-
-df.tail()
